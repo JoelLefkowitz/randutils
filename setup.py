@@ -2,17 +2,8 @@ from setuptools import setup
 
 if __name__ == "__main__":
     setup(
-        entry_points={
-            "console_scripts": [
-                "randutils = randutils.__main__:entrypoint",
-                "randutils = randutils.__main__:entrypoint",
-            ]
-        },
         install_requires=[
-            "dataclasses",
-            "ruamel.yaml",
-            "typing_extensions",
-            "typing_inspect",
+          "numpy",
         ],
         extras_require={
             "dist": ["wheel", "twine", "bump2version"],
