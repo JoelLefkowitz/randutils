@@ -1,6 +1,6 @@
 # Randutils
 
-Random generators and selection utilities
+Random generators and selection utilities.
 
 ## Status
 
