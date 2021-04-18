@@ -18,6 +18,8 @@ Random generators and selection utilities.
 pip install randutils
 ```
 
+## Usage
+
 ## Tests
 
 To run unit tests and generate a coverage report:
@@ -119,16 +121,17 @@ Lots of love to the open source community!
 [languages_shield]: https://img.shields.io/github/languages/count/joellefkowitz/randutils
 
 <!-- Health shields -->
-[codacy_shield]: https://img.shields.io/codacy/grade/None
+[codacy_shield]: https://img.shields.io/codacy/grade/fe32abb6b14e4b5280e53c7e25b17b71
 [readthedocs_shield]: https://img.shields.io/readthedocs/randutils
 [travis_shield]: https://img.shields.io/travis/com/joellefkowitz/randutils
-[codacy_coverage_shield]: https://img.shields.io/codacy/coverage/None
+[codacy_coverage_shield]: https://img.shields.io/codacy/coverage/fe32abb6b14e4b5280e53c7e25b17b71
 
 <!-- Repository shields -->
 [issues_shield]: https://img.shields.io/github/issues/joellefkowitz/randutils
 [issues_closed_shield]: https://img.shields.io/github/issues-closed/joellefkowitz/randutils
 [pulls_shield]: https://img.shields.io/github/issues-pr/joellefkowitz/randutils
 [pulls_closed_shield]: https://img.shields.io/github/issues-pr-closed/joellefkowitz/randutils
+
 <!-- Publishers shields -->
 [pypi_shield]: https://img.shields.io/pypi/v/randutils
 [python_versions_shield]: https://img.shields.io/pypi/pyversions/randutils

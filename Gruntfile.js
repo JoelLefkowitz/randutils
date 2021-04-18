@@ -1,13 +1,13 @@
 module.exports = function (grunt) {
   grunt.initConfig({
     exec: {
-      bandit: "bandit -c .bandit -r randutils",
+      bandit: "bandit --ini .bandit -r randutils",
       black: "black randutils",
       cspell: "npx cspell -c .cspell.json {*,.*,**/*}",
       isort: "isort randutils",
       mypy: "mypy randutils",
       prettier: "prettier . --write",
-      pylint: "pylint --rcfile .pylintrc randutils",
+      pylint: "pylint --rcfile .pylintrc  --fail-under=8 randutils",
       quickdocs: "quickdocs .quickdocs.yml",
       remark: "npx remark -r .remarkrc .",
       sphinx: "sphinx-build docs build",
