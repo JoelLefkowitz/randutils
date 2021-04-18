@@ -3,5 +3,5 @@ version: 0.1.0
 author: Joel Lefkowitz
 verbose_name: Randutils
 html_title: Randutils
-github_url: JoelLefkowitz/randutils
+github_url: https://github.com/JoelLefkowitz/randutils
 apidoc_module_dir: randutils

@@ -1,9 +1,4 @@
-\__pycache__/
 __pypackages__/
-!.vscode/extensions.json
-!.vscode/launch.json
-!.vscode/settings.json
-!.vscode/tasks.json
 .c9/
 .cache
 .classpath
@@ -12,7 +7,6 @@ __pypackages__/
 .dmypy.json
 .DS_Store
 .eggs/
-.env
 .history/*
 .hypothesis/
 .idea/
@@ -39,6 +33,7 @@ __pypackages__/
 *.cover
 *.egg
 *.egg-info/
+*.env
 *.launch
 *.log
 *.manifest
@@ -49,27 +44,28 @@ __pypackages__/
 *.sage.py
 *.so
 *.spec
+*.sqlite3
 *.sublime-workspace
+*.tfstate
+*.tfstate.backup
 *$py.class
+\__pycache__/
 bazel-out/
 build/
 celerybeat-schedule/
 celerybeat.pid
 chrome-profiler-events*.json
 connect.lock
+cov.xml
 coverage.xml
 coverage/
-db.sqlite3
-db.sqlite3-journal
 develop-eggs/
 dist/
 dmypy.json
 docs/_build/
 downloads/
 eggs/
-env.bak/
 env/
-ENV/
 htmlcov/
 instance/
 ipython_config.py
@@ -77,7 +73,6 @@ lib/
 lib64/
 libpeerconnection.log
 local_settings.py
-MANIFEST.*
 node_modules/
 nosetests.xml
 npm-debug.log
@@ -91,7 +86,9 @@ sdist/
 share/python-wheels/
 site/
 speed-measure-plugin*.json
+sqlite3
 target/
+terraform/.terraform/
 testem.log
 Thumbs.db
 tmp/
@@ -102,3 +99,5 @@ venv/
 wheels/
 yarn-error.log
 
+# Exclusions must succeed inclusions
+!public.*.env

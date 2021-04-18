@@ -1,0 +1,51 @@
+output_dir: .
+
+clear_top_level: true
+logical_grouping: true
+
+collections:
+  - common
+  - python
+
+loader_paths:
+  - docs
+
+render_context:
+  project:
+    project_name: randutils
+    version: 0.1.0
+
+    verbose_name: Randutils
+    description: Random generators and selection utilities.
+
+    repository: https://github.com/JoelLefkowitz/randutils
+    codacy_id: fe32abb6b14e4b5280e53c7e25b17b71
+
+    inserts:
+      - usage.md
+
+  author:
+    author: Joel Lefkowitz
+    author_email: joellefkowitz@hotmail.com
+    author_github_handle: joellefkowitz
+
+  package:
+    is_pypi_package: true
+    package_name: randutils
+
+  portfolio:
+    is_portfolio: true
+    status_level: 4
+
+    languages:
+      - Python
+
+    frameworks:
+      - Django
+
+    paradigms:
+      - Object oriented programming
+
+  public_keys:
+    travis_pypi: pB9lUi69Q2Bh6a515iP0ikPZtS1g7ReIluPHQmO+2a/xKWYR/oiA0nGzmBoWwilM60XToiVz6gcNEo7CZ2yZUbdJkOwhtB0vTx3/HDZWZOOF4KN1eJGcwLwPtn/E5sfOgcMdrKFggjAJWg8LpcRs/FafNdJVFXP1H848Bx602aAsBXdVdp97XXDuMCwaTC30IGfP17jYr/ZHSx2njgWJMGjrNJCq0pzZjL/eqSbHc7YdijzVq5zek6SDbJCYJAM8LOnEU2uutxiWw19V0l+DYLfX/nKxS1+2f7NtrNxwbzpP1y8fleASJSrfV90COeS12SRRXlpvfbqPKXgNb9nHLDUN7oZbpKjEw8uZEWuSn2fLA/96MKi3EMHGVOCoMcgx4yjqLh2Kb+Dnoqae7G/PCjrfyOUHwiJhQ8XT5crdeNy8i/zdv55HETc6vfL5zamU8JtP93x0YMcXq0ZlyzqBC5TEd4EferiHd8qNn4iJqEglEXChP1dPIk+uovF14C6cKsRwfv1XvMp4Y6qWW+2QvPCaGCiYePlOJIiLOX6BAcHUdvQCPHrB3iwKnC5benpD6B1horMhXryZ3YYhAyER6Wknf/D/3AuFTi85OgiRbGpBILaaK4f6/gTMC9wFOB4WbeNpdMylB+FTjewGUcDsmVN0NLBNVs4nVRwXUJ4hCqc=
+    travis_codacy: iwfQG9Cw0Y7hYlLKpdVrs2sSIw85/wuMZa6wQQueETlR/Akq9+Nqfbn0+3+hzRSnRGYby2Bm9zGlWJYzDqtJMs9KvV5w1JXztQNZrAngHfbzJObZdxjKD50QJcJMt2xY0iXsWgbf2MkiYNW5JoikEDv7cjhfJ5+zIiIPdT0aAMkizPVuAq0tvbrHfR9FO5H+Xj4OxHMNO7aY0xwAnc+JSMFKsaGQnoLQ38CTrk4UUtaT6cPl5sYVJy4OB1+GcqOPXxNDI+h1Ukt5LwB+ZJ1iZyyJ98gd1uF45JLJ3MZnwNhdiObHhZPv/htpgpYhb08Z3qrd5W/QKoAekcrZSopFL7vcTxOOQmUH1wEAcZgJ4iFfflO4ZAlZWIuZsCQ9i5vAvwxD8iNDJlhyYDmq9n0lycn5hl9a5hKuWKWq0YP+ibPVbEoLuFeusuYLssFhF7Lugmfa/k1w9LQ4B/GmsnGiGQeFHZyvDGGpFqdFtvsK5iioVfbyd+hr9cGYYqar4cDprOhz8dUn0EDsKXVaVtL31aG9W6uvznRSkhpKwR8Es+UhAGUSmN2CcgNluhwj968c3nblLJafQNnMo4RlfTnxbvMbLF6oQhntCWsnYIzQQw7nZWxbD5yM4zrSEKYa+EhNg21vbWRyE2eI7aLwUgLVbS/+RnEANIkipmofZ7mN5Lg=

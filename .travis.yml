@@ -1,0 +1,46 @@
+language: python
+python: 3.8
+
+os: linux
+dist: xenial
+
+before_install:
+  - pip install .[all]
+  - nvm install 14
+  - npm install
+  - npm install -g grunt-cli
+
+cache:
+  - pip
+  - npm
+
+jobs:
+  include:
+    - stage: Linters
+      script: grunt lint
+
+    - stage: Unit tests
+      script: grunt tests:unit
+
+    - &unittests
+      stage: Unit tests
+      python: 3.6
+      script: grunt tests:unit
+
+    - <<: *unittests
+      python: 3.7
+
+    - <<: *unittests
+      python: 3.8
+
+    - stage: Publish
+      script: echo This version refers to $(git describe --tags)
+      deploy:
+        provider: pypi
+        distributions: sdist bdist_wheel
+        username: "__token__"
+        password:
+          secure:
+        on:
+          tags: true
+          branch: master
